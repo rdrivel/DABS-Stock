@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 13 * * *"   # 6:17 AM Mountain Standard Time, every day
   workflow_dispatch:         # "Run workflow" button for a manual refresh
+  push:                      # also run when the script or workflow changes
+    branches: [main]
+    paths: [scrape_dabs.py, .github/workflows/update-stores.yml]
 
 permissions:
   contents: write
