@@ -1,15 +1,17 @@
 {
- "updated": "2026-11-04T23:00:00+00:00",
+ "updated": "2026-11-05T00:20:57+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "tango": {
    "sku": "931895",
    "name": "PROVERBIAL RTD TWO TO TANGO GIN 355ml",
+   "warehouse": 2208,
    "price": 3.99
   },
   "slice": {
    "sku": "931896",
    "name": "PROVERBIAL RTD SLICE OF HEAVEN 355ml",
+   "warehouse": 2112,
    "price": 3.99
   }
  },
@@ -39,7 +41,7 @@
   {
    "id": "0018",
    "name": "State Liquor Store #18",
-   "addr": "1580 S Providence Center Dr",
+   "addr": "1580 S Providence Ctr Dr",
    "city": "Cedar City",
    "phone": "435-586-1644",
    "lat": 37.650727,
@@ -48,9 +50,20 @@
    "slice": null
   },
   {
+   "id": "0021",
+   "name": "State Liquor Store #21",
+   "addr": "484 N Wall St",
+   "city": "Ogden",
+   "phone": "801-393-2592",
+   "lat": 41.267927,
+   "lng": -111.976786,
+   "tango": 0,
+   "slice": null
+  },
+  {
    "id": "0023",
    "name": "State Liquor Store #23",
-   "addr": "3656 W 5600 S",
+   "addr": "3656 West 5600 South",
    "city": "Roy",
    "phone": "801-825-8755",
    "lat": 41.16254,
@@ -72,13 +85,24 @@
   {
    "id": "0027",
    "name": "State Liquor Store #27",
-   "addr": "963 S Main St",
+   "addr": "963 South Main Street",
    "city": "Moab",
    "phone": "435-259-5314",
    "lat": 38.558878,
    "lng": -109.54687,
    "tango": 48,
    "slice": 0
+  },
+  {
+   "id": "0031",
+   "name": "State Liquor Store #31",
+   "addr": "14445 S Minuteman Dr",
+   "city": "Draper",
+   "phone": "801-495-2894",
+   "lat": 40.489538,
+   "lng": -111.891543,
+   "tango": 0,
+   "slice": null
   },
   {
    "id": "0039",
@@ -94,7 +118,7 @@
   {
    "id": "0040",
    "name": "State Liquor Store #40",
-   "addr": "13332 S Market Center Dr",
+   "addr": "13332 S Market Ctr Dr",
    "city": "Riverton",
    "phone": "801-253-5807",
    "lat": 40.509256,
@@ -127,7 +151,7 @@
   {
    "id": "0048",
    "name": "State Liquor Store #48",
-   "addr": "5278 W Anthem Peak Ln",
+   "addr": "5278 W Anthem Peak Lane",
    "city": "Herriman",
    "phone": "385-484-7255",
    "lat": 40.535684,
@@ -165,7 +189,7 @@
    "phone": "801-629-5880",
    "lat": 41.244428,
    "lng": -112.006896,
-   "tango": null,
+   "tango": 0,
    "slice": 56
   }
  ]
