@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T00:20:57+00:00",
+ "updated": "2026-11-05T20:39:09+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "tango": {
@@ -24,8 +24,8 @@
    "phone": "801-533-5901",
    "lat": 40.760328,
    "lng": -111.897375,
-   "tango": 3,
-   "slice": 10
+   "tango": 51,
+   "slice": 0
   },
   {
    "id": "0004",
@@ -189,8 +189,8 @@
    "phone": "801-629-5880",
    "lat": 41.244428,
    "lng": -112.006896,
-   "tango": 0,
-   "slice": 56
+   "slice": 56,
+   "tango": null
   }
  ]
 }
