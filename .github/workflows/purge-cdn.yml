@@ -1,0 +1,19 @@
+name: Refresh landing page on the CDN
+
+# The Squarespace page loads landing/ through jsDelivr, which caches @main for hours.
+# Purge those files whenever they change so edits go live in about a minute.
+on:
+  push:
+    branches: [main]
+    paths: ["landing/**"]
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: |
+          for f in embed.js landing.js landing.css landing.html img/two-to-tango-can.webp img/slice-of-heaven-can.webp; do
+            curl -fsS "https://purge.jsdelivr.net/gh/rdrivel/dabs-stock@main/landing/$f" > /dev/null && echo "purged $f"
+          done
