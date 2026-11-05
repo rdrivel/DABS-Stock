@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pull Utah DABS store stock for Proverbial RTD SKUs and write stores.json.
+"""Pull Utah DABS store stock for every Proverbial SKU and write stores.json.
 
 The DABS product locator keeps the selected SKU in a server session:
   1. GET  /ProdApps/ProductLocatorCore                      (session cookie)
@@ -16,7 +16,17 @@ from pathlib import Path
 import requests
 
 BASE = "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore"
-SKUS = {"tango": "931895", "slice": "931896"}  # Two to Tango, Slice of Heaven
+# Key -> DABS item number. Keys are what the site's store finder filters on; order = chip order.
+SKUS = {
+    "gin": "924335",     # No Rest for the Wicked gin 750ml
+    "rum": "924334",     # Loose Lips Sink Ships rum 750ml
+    "vodka": "037783",   # Never Say Never vodka 750ml
+    "barrel": "927870",  # Knock on Wood barrel rum 750ml
+    "tango": "931895",   # Two to Tango 355ml
+    "slice": "931896",   # Slice of Heaven 355ml
+    "bees": "928594",    # More Bees with Honey 355ml
+    "mule": "931894",    # Lead a Mule to Water 355ml
+}
 OUT = Path(__file__).with_name("stores.json")
 
 ROW_RE = re.compile(r"<tr[^>]*>(.*?)</tr>", re.S | re.I)
@@ -87,15 +97,24 @@ def main():
     s.headers["User-Agent"] = "Mozilla/5.0 (ProverbialSpirits store finder; daily stock refresh)"
     s.get(BASE, timeout=30).raise_for_status()
 
-    products, merged = {}, {}
+    products, merged, empty = {}, {}, []
     for key, sku in SKUS.items():
-        info, rows = fetch(sku, s)
+        try:
+            info, rows = fetch(sku, s)
+        except requests.RequestException as e:
+            print(f"SKU {sku} ({key}) failed: {e}")
+            info, rows = {}, []
         if not rows:
-            sys.exit(f"No store rows for SKU {sku}; leaving stores.json unchanged.")
-        products[key] = {"sku": sku, **info}
+            empty.append(key)  # sold out everywhere, delisted or a hiccup: keep going
+        products[key] = {"sku": sku, **info, "stores": len(rows)}
         for row in rows:
             st = merged.setdefault(row["id"], {k: v for k, v in row.items() if k != "qty"})
             st[key] = row["qty"]
+
+    if len(empty) == len(SKUS):
+        sys.exit("No store rows for any SKU; leaving stores.json unchanged.")
+    if empty:
+        print("No stores for:", ", ".join(empty))
 
     stores = sorted(merged.values(), key=lambda x: x["id"])
     for st in stores:
