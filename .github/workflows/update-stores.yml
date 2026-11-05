@@ -1,0 +1,28 @@
+name: Update DABS store stock
+
+on:
+  schedule:
+    - cron: "17 13 * * *"   # 6:17 AM Mountain Standard Time, every day
+  workflow_dispatch:         # "Run workflow" button for a manual refresh
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - run: python scrape_dabs.py
+      - name: Commit stores.json
+        run: |
+          git config user.name "dabs-stock-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add stores.json
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "Update DABS store stock $(date -u +%F)"
+          git push

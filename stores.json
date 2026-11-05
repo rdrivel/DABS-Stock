@@ -1,0 +1,172 @@
+{
+ "updated": "2026-11-04T23:00:00+00:00",
+ "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
+ "products": {
+  "tango": {
+   "sku": "931895",
+   "name": "PROVERBIAL RTD TWO TO TANGO GIN 355ml",
+   "price": 3.99
+  },
+  "slice": {
+   "sku": "931896",
+   "name": "PROVERBIAL RTD SLICE OF HEAVEN 355ml",
+   "price": 3.99
+  }
+ },
+ "stores": [
+  {
+   "id": "0001",
+   "name": "State Liquor Store #1",
+   "addr": "151 East 300 South",
+   "city": "Salt Lake City",
+   "phone": "801-533-5901",
+   "lat": 40.760328,
+   "lng": -111.897375,
+   "tango": 3,
+   "slice": 10
+  },
+  {
+   "id": "0004",
+   "name": "State Liquor Store #4",
+   "addr": "1615 S Foothill Dr",
+   "city": "Salt Lake City",
+   "phone": "801-584-8387",
+   "lat": 40.739595,
+   "lng": -111.82617,
+   "tango": 36,
+   "slice": 41
+  },
+  {
+   "id": "0018",
+   "name": "State Liquor Store #18",
+   "addr": "1580 S Providence Center Dr",
+   "city": "Cedar City",
+   "phone": "435-586-1644",
+   "lat": 37.650727,
+   "lng": -113.086541,
+   "tango": 20,
+   "slice": null
+  },
+  {
+   "id": "0023",
+   "name": "State Liquor Store #23",
+   "addr": "3656 W 5600 S",
+   "city": "Roy",
+   "phone": "801-825-8755",
+   "lat": 41.16254,
+   "lng": -112.06948,
+   "tango": 45,
+   "slice": 44
+  },
+  {
+   "id": "0026",
+   "name": "State Liquor Store #26",
+   "addr": "3905 W 5400 S",
+   "city": "Kearns",
+   "phone": "801-968-9826",
+   "lat": 40.653102,
+   "lng": -111.984305,
+   "tango": 15,
+   "slice": null
+  },
+  {
+   "id": "0027",
+   "name": "State Liquor Store #27",
+   "addr": "963 S Main St",
+   "city": "Moab",
+   "phone": "435-259-5314",
+   "lat": 38.558878,
+   "lng": -109.54687,
+   "tango": 48,
+   "slice": 0
+  },
+  {
+   "id": "0039",
+   "name": "State Liquor Store #39",
+   "addr": "161 N 900 E",
+   "city": "St. George",
+   "phone": "435-674-9550",
+   "lat": 37.111093,
+   "lng": -113.564253,
+   "tango": 8,
+   "slice": 24
+  },
+  {
+   "id": "0040",
+   "name": "State Liquor Store #40",
+   "addr": "13332 S Market Center Dr",
+   "city": "Riverton",
+   "phone": "801-253-5807",
+   "lat": 40.509256,
+   "lng": -111.981285,
+   "tango": 13,
+   "slice": null
+  },
+  {
+   "id": "0043",
+   "name": "State Liquor Store #43",
+   "addr": "262 E Gateway Dr",
+   "city": "Heber City",
+   "phone": "435-657-3088",
+   "lat": 40.492073,
+   "lng": -111.409652,
+   "tango": 29,
+   "slice": null
+  },
+  {
+   "id": "0046",
+   "name": "State Liquor Store #46",
+   "addr": "6262 S 5600 W",
+   "city": "West Valley City",
+   "phone": "801-685-4110",
+   "lat": 40.637251,
+   "lng": -112.02588,
+   "tango": 8,
+   "slice": null
+  },
+  {
+   "id": "0048",
+   "name": "State Liquor Store #48",
+   "addr": "5278 W Anthem Peak Ln",
+   "city": "Herriman",
+   "phone": "385-484-7255",
+   "lat": 40.535684,
+   "lng": -112.0176,
+   "tango": 8,
+   "slice": null
+  },
+  {
+   "id": "0051",
+   "name": "State Liquor Store #51",
+   "addr": "4455 S 2700 W",
+   "city": "Taylorsville",
+   "phone": "801-955-2100",
+   "lat": 40.673462,
+   "lng": -111.957851,
+   "tango": 60,
+   "slice": 56
+  },
+  {
+   "id": "0052",
+   "name": "State Liquor Store #52",
+   "addr": "1880 E 9400 S",
+   "city": "Sandy",
+   "phone": "801-253-5760",
+   "lat": 40.580098,
+   "lng": -111.839075,
+   "tango": 62,
+   "slice": 52
+  },
+  {
+   "id": "0053",
+   "name": "State Liquor Store #53",
+   "addr": "1115 W 12th St",
+   "city": "Marriott-Slaterville",
+   "phone": "801-629-5880",
+   "lat": 41.244428,
+   "lng": -112.006896,
+   "tango": null,
+   "slice": 56
+  }
+ ]
+}
