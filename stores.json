@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-05T20:51:11+00:00",
+ "updated": "2026-11-06T19:57:04+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
    "sku": "924335",
    "name": "PROVERBIAL NO REST FOR WICKED GIN  750ml",
-   "warehouse": 0,
+   "warehouse": 120,
    "price": 37.84,
    "stores": 21
   },
@@ -72,7 +72,7 @@
    "vodka": 6,
    "barrel": 5,
    "tango": 51,
-   "slice": 10,
+   "slice": 57,
    "rum": null,
    "bees": null,
    "mule": null
@@ -121,10 +121,10 @@
    "lng": -111.82617,
    "gin": 9,
    "rum": 6,
-   "vodka": 4,
+   "vodka": 3,
    "barrel": 5,
-   "tango": 36,
-   "slice": 41,
+   "tango": 34,
+   "slice": 40,
    "bees": null,
    "mule": null
   },
@@ -154,7 +154,7 @@
    "lat": 40.661852,
    "lng": -111.889024,
    "gin": 5,
-   "vodka": 3,
+   "vodka": 2,
    "barrel": 5,
    "rum": null,
    "tango": null,
@@ -205,7 +205,7 @@
    "lat": 40.586943,
    "lng": -111.895088,
    "rum": 48,
-   "vodka": 44,
+   "vodka": 43,
    "barrel": 5,
    "gin": null,
    "tango": null,
@@ -260,7 +260,7 @@
    "vodka": 3,
    "barrel": 6,
    "tango": 45,
-   "slice": 44,
+   "slice": 43,
    "bees": null,
    "mule": null
   },
@@ -617,7 +617,7 @@
    "vodka": 6,
    "barrel": 5,
    "tango": 60,
-   "slice": 56,
+   "slice": 54,
    "bees": null,
    "mule": null
   },
@@ -646,11 +646,11 @@
    "phone": "801-629-5880",
    "lat": 41.244428,
    "lng": -112.006896,
-   "gin": 3,
+   "gin": 9,
    "rum": 8,
    "vodka": 7,
    "barrel": 7,
-   "slice": 56,
+   "slice": 55,
    "mule": 0,
    "tango": null,
    "bees": null
