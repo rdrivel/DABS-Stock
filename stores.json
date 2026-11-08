@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:02:16+00:00",
+ "updated": "2026-11-08T18:21:21+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -71,8 +71,8 @@
    "gin": 7,
    "vodka": 6,
    "barrel": 5,
-   "tango": 48,
-   "slice": 54,
+   "tango": 46,
+   "slice": 50,
    "rum": null,
    "bees": null,
    "mule": null
@@ -411,7 +411,7 @@
    "gin": 8,
    "rum": 4,
    "vodka": 2,
-   "barrel": 5,
+   "barrel": 4,
    "bees": 0,
    "tango": null,
    "slice": null,
@@ -446,7 +446,7 @@
    "rum": 5,
    "vodka": 2,
    "barrel": 4,
-   "tango": 8,
+   "tango": 6,
    "slice": 24,
    "bees": 8,
    "mule": 6
@@ -617,7 +617,7 @@
    "vodka": 6,
    "barrel": 5,
    "tango": 60,
-   "slice": 54,
+   "slice": 51,
    "bees": null,
    "mule": null
   },
@@ -650,7 +650,7 @@
    "rum": 8,
    "vodka": 6,
    "barrel": 7,
-   "slice": 55,
+   "slice": 51,
    "mule": 0,
    "tango": null,
    "bees": null
