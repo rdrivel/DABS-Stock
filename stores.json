@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:11:56+00:00",
+ "updated": "2026-11-12T20:49:27+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -14,14 +14,14 @@
    "name": "PROVERBIAL LOOSE LIPS RUM          750ml",
    "warehouse": 0,
    "price": 27.06,
-   "stores": 21
+   "stores": 20
   },
   "vodka": {
    "sku": "037783",
    "name": "PROVERBIAL NEVER SAY NEVER VODKA   750ml",
    "warehouse": 0,
    "price": 19.99,
-   "stores": 22
+   "stores": 21
   },
   "barrel": {
    "sku": "927870",
@@ -33,23 +33,23 @@
   "tango": {
    "sku": "931895",
    "name": "PROVERBIAL RTD TWO TO TANGO GIN 355ml",
-   "warehouse": 2208,
+   "warehouse": 1872,
    "price": 3.99,
-   "stores": 15
+   "stores": 34
   },
   "slice": {
    "sku": "931896",
    "name": "PROVERBIAL RTD SLICE OF HEAVEN 355ml",
-   "warehouse": 2112,
+   "warehouse": 1608,
    "price": 3.99,
-   "stores": 8
+   "stores": 29
   },
   "bees": {
    "sku": "928594",
    "name": "PROVERBIAL-MORE BEES W/HONEY RTD  355ml",
    "warehouse": 0,
    "price": 3.99,
-   "stores": 4
+   "stores": 2
   },
   "mule": {
    "sku": "931894",
@@ -69,7 +69,7 @@
    "lat": 40.760328,
    "lng": -111.897375,
    "gin": 7,
-   "vodka": 6,
+   "vodka": 5,
    "barrel": 5,
    "tango": 41,
    "slice": 44,
@@ -156,9 +156,9 @@
    "gin": 5,
    "vodka": 2,
    "barrel": 5,
+   "tango": 0,
+   "slice": 0,
    "rum": null,
-   "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -176,6 +176,40 @@
    "rum": null,
    "tango": null,
    "slice": null,
+   "bees": null,
+   "mule": null
+  },
+  {
+   "id": "0012",
+   "name": "State Liquor Store #12",
+   "addr": "402 E 6th Ave - Ste 1",
+   "city": "Salt Lake City",
+   "phone": "801-533-5905",
+   "lat": 40.776483,
+   "lng": -111.876865,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
+   "bees": null,
+   "mule": null
+  },
+  {
+   "id": "0013",
+   "name": "State Liquor Store #13",
+   "addr": "1255 W N Temple",
+   "city": "Salt Lake City",
+   "phone": "801-533-5904",
+   "lat": 40.77123,
+   "lng": -111.927601,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
    "bees": null,
    "mule": null
   },
@@ -207,9 +241,9 @@
    "rum": 48,
    "vodka": 43,
    "barrel": 5,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
-   "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -231,6 +265,23 @@
    "mule": null
   },
   {
+   "id": "0019",
+   "name": "State Liquor Store #19",
+   "addr": "3802 Pacific Ave",
+   "city": "Ogden",
+   "phone": "801-392-3091",
+   "lat": 41.194546,
+   "lng": -111.98532,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
+   "bees": null,
+   "mule": null
+  },
+  {
    "id": "0021",
    "name": "State Liquor Store #21",
    "addr": "484 N Wall St",
@@ -243,7 +294,24 @@
    "vodka": 6,
    "barrel": 6,
    "tango": 0,
-   "slice": null,
+   "slice": 0,
+   "bees": null,
+   "mule": null
+  },
+  {
+   "id": "0022",
+   "name": "State Liquor Store #22",
+   "addr": "43 S 100 W",
+   "city": "Brigham City",
+   "phone": "435-723-3701",
+   "lat": 41.509684,
+   "lng": -112.016752,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
    "bees": null,
    "mule": null
   },
@@ -273,11 +341,11 @@
    "lat": 41.209414,
    "lng": -111.949576,
    "barrel": 6,
+   "slice": 0,
    "gin": null,
    "rum": null,
    "vodka": null,
    "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -290,11 +358,11 @@
    "lat": 40.700521,
    "lng": -111.802094,
    "barrel": 9,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
    "rum": null,
    "vodka": null,
-   "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -307,12 +375,12 @@
    "lat": 40.653102,
    "lng": -111.984305,
    "tango": 11,
-   "mule": 36,
+   "slice": 0,
+   "mule": 32,
    "gin": null,
    "rum": null,
    "vodka": null,
    "barrel": null,
-   "slice": null,
    "bees": null
   },
   {
@@ -333,6 +401,23 @@
    "mule": null
   },
   {
+   "id": "0028",
+   "name": "State Liquor Store #28",
+   "addr": "675 E Main",
+   "city": "Vernal",
+   "phone": "435-789-3750",
+   "lat": 40.456661,
+   "lng": -109.516064,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
+   "bees": null,
+   "mule": null
+  },
+  {
    "id": "0029",
    "name": "State Liquor Store #29",
    "addr": "1814 E Murray Holladay Rd",
@@ -342,9 +427,26 @@
    "lng": -111.840048,
    "rum": 6,
    "barrel": 6,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
    "vodka": null,
-   "tango": null,
+   "bees": null,
+   "mule": null
+  },
+  {
+   "id": "0030",
+   "name": "State Liquor Store #30",
+   "addr": "625 W 600 N",
+   "city": "Layton",
+   "phone": "801-546-1151",
+   "lat": 41.06856,
+   "lng": -111.977673,
+   "tango": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
    "slice": null,
    "bees": null,
    "mule": null
@@ -412,9 +514,9 @@
    "rum": 4,
    "vodka": 2,
    "barrel": 4,
-   "bees": 0,
-   "tango": null,
-   "slice": null,
+   "tango": 0,
+   "slice": 0,
+   "bees": null,
    "mule": null
   },
   {
@@ -429,9 +531,9 @@
    "rum": 12,
    "vodka": 5,
    "barrel": 6,
+   "tango": 0,
+   "slice": 0,
    "bees": 15,
-   "tango": null,
-   "slice": null,
    "mule": null
   },
   {
@@ -461,10 +563,10 @@
    "lng": -111.981285,
    "barrel": 4,
    "tango": 13,
+   "slice": 0,
    "gin": null,
    "rum": null,
    "vodka": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -486,6 +588,23 @@
    "mule": null
   },
   {
+   "id": "0042",
+   "name": "State Liquor Store #42",
+   "addr": "202 N Foothills Cyn Dr",
+   "city": "Hurricane",
+   "phone": "435-627-8622",
+   "lat": 37.169001,
+   "lng": -113.441333,
+   "tango": 0,
+   "slice": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
+   "bees": null,
+   "mule": null
+  },
+  {
    "id": "0043",
    "name": "State Liquor Store #43",
    "addr": "262 E Gateway Dr",
@@ -496,10 +615,10 @@
    "gin": 9,
    "rum": 1,
    "tango": 29,
+   "slice": 0,
    "mule": 1,
    "vodka": null,
    "barrel": null,
-   "slice": null,
    "bees": null
   },
   {
@@ -511,11 +630,11 @@
    "lat": 40.356047,
    "lng": -111.762417,
    "rum": 1,
-   "vodka": 0,
    "barrel": 5,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
-   "tango": null,
-   "slice": null,
+   "vodka": null,
    "bees": null,
    "mule": null
   },
@@ -531,8 +650,8 @@
    "rum": 8,
    "vodka": 6,
    "barrel": 5,
-   "tango": null,
-   "slice": null,
+   "tango": 0,
+   "slice": 0,
    "bees": null,
    "mule": null
   },
@@ -545,13 +664,30 @@
    "lat": 40.637251,
    "lng": -112.02588,
    "gin": 7,
-   "rum": 0,
    "barrel": 9,
    "tango": 8,
    "mule": 5,
+   "rum": null,
    "vodka": null,
    "slice": null,
    "bees": null
+  },
+  {
+   "id": "0047",
+   "name": "State Liquor Store #47",
+   "addr": "865 W Antelope Dr",
+   "city": "Syracuse",
+   "phone": "385-423-7030",
+   "lat": 41.089072,
+   "lng": -112.042125,
+   "tango": 0,
+   "gin": null,
+   "rum": null,
+   "vodka": null,
+   "barrel": null,
+   "slice": null,
+   "bees": null,
+   "mule": null
   },
   {
    "id": "0048",
@@ -561,7 +697,7 @@
    "phone": "385-484-7255",
    "lat": 40.535684,
    "lng": -112.0176,
-   "gin": 9,
+   "gin": 0,
    "vodka": 64,
    "barrel": 5,
    "tango": 8,
@@ -579,11 +715,11 @@
    "lat": 40.385867,
    "lng": -111.924542,
    "barrel": 8,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
    "rum": null,
    "vodka": null,
-   "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -596,11 +732,11 @@
    "lat": 40.99051,
    "lng": -111.898929,
    "barrel": 9,
+   "tango": 0,
+   "slice": 0,
    "gin": null,
    "rum": null,
    "vodka": null,
-   "tango": null,
-   "slice": null,
    "bees": null,
    "mule": null
   },
@@ -635,7 +771,7 @@
    "barrel": 9,
    "tango": 62,
    "slice": 52,
-   "bees": 0,
+   "bees": null,
    "mule": null
   },
   {
@@ -650,9 +786,9 @@
    "rum": 8,
    "vodka": 6,
    "barrel": 7,
+   "tango": 0,
    "slice": 40,
    "mule": 0,
-   "tango": null,
    "bees": null
   }
  ]
