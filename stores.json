@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T20:28:53+00:00",
+ "updated": "2026-11-14T18:44:00+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -71,8 +71,8 @@
    "gin": 7,
    "vodka": 5,
    "barrel": 5,
-   "tango": 32,
-   "slice": 43,
+   "tango": 30,
+   "slice": 40,
    "rum": null,
    "bees": null,
    "mule": null
@@ -123,8 +123,8 @@
    "rum": 4,
    "vodka": 3,
    "barrel": 5,
-   "tango": 33,
-   "slice": 40,
+   "tango": 30,
+   "slice": 37,
    "bees": null,
    "mule": null
   },
@@ -239,7 +239,7 @@
    "lat": 40.586943,
    "lng": -111.895088,
    "rum": 48,
-   "vodka": 43,
+   "vodka": 41,
    "barrel": 5,
    "tango": 0,
    "slice": 0,
@@ -291,7 +291,7 @@
    "lng": -111.976786,
    "gin": 4,
    "rum": 4,
-   "vodka": 5,
+   "vodka": 4,
    "barrel": 6,
    "tango": 0,
    "slice": 0,
@@ -425,7 +425,7 @@
    "phone": "801-278-3572",
    "lat": 40.66576,
    "lng": -111.840048,
-   "rum": 6,
+   "rum": 5,
    "barrel": 6,
    "tango": 0,
    "slice": 0,
@@ -461,10 +461,10 @@
    "lng": -111.891543,
    "gin": 2,
    "rum": 5,
-   "vodka": 50,
+   "vodka": 49,
    "barrel": 5,
    "tango": 0,
-   "mule": 5,
+   "mule": 4,
    "slice": null,
    "bees": null
   },
@@ -665,7 +665,7 @@
    "lng": -112.02588,
    "gin": 7,
    "barrel": 9,
-   "tango": 8,
+   "tango": 7,
    "mule": 5,
    "rum": null,
    "vodka": null,
@@ -753,7 +753,7 @@
    "vodka": 6,
    "barrel": 5,
    "tango": 60,
-   "slice": 50,
+   "slice": 49,
    "bees": null,
    "mule": null
   },
@@ -769,7 +769,7 @@
    "rum": 5,
    "vodka": 7,
    "barrel": 9,
-   "tango": 61,
+   "tango": 60,
    "slice": 52,
    "bees": null,
    "mule": null
@@ -787,7 +787,7 @@
    "vodka": 6,
    "barrel": 7,
    "tango": 0,
-   "slice": 40,
+   "slice": 34,
    "mule": 0,
    "bees": null
   }
