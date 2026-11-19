@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:26:01+00:00",
+ "updated": "2026-11-19T21:31:53+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -7,7 +7,7 @@
    "name": "PROVERBIAL NO REST FOR WICKED GIN  750ml",
    "warehouse": 120,
    "price": 37.84,
-   "stores": 21
+   "stores": 19
   },
   "rum": {
    "sku": "924334",
@@ -33,9 +33,9 @@
   "tango": {
    "sku": "931895",
    "name": "PROVERBIAL RTD TWO TO TANGO GIN 355ml",
-   "warehouse": 1656,
+   "warehouse": 1632,
    "price": 3.99,
-   "stores": 34
+   "stores": 32
   },
   "slice": {
    "sku": "931896",
@@ -56,7 +56,7 @@
    "name": "PROVERBIAL LEAD A MULE TO WATER VODKA MU",
    "warehouse": 0,
    "price": 3.99,
-   "stores": 6
+   "stores": 5
   }
  },
  "stores": [
@@ -71,8 +71,8 @@
    "gin": 6,
    "vodka": 4,
    "barrel": 5,
-   "tango": 52,
-   "slice": 38,
+   "tango": 51,
+   "slice": 37,
    "rum": null,
    "bees": null,
    "mule": null
@@ -124,7 +124,7 @@
    "vodka": 3,
    "barrel": 5,
    "tango": 30,
-   "slice": 37,
+   "slice": 36,
    "bees": null,
    "mule": null
   },
@@ -153,11 +153,11 @@
    "phone": "801-262-7789",
    "lat": 40.661852,
    "lng": -111.889024,
-   "gin": 0,
    "vodka": 1,
    "barrel": 5,
    "tango": 20,
    "slice": 46,
+   "gin": null,
    "rum": null,
    "bees": null,
    "mule": null
@@ -204,8 +204,8 @@
    "phone": "801-533-5904",
    "lat": 40.77123,
    "lng": -111.927601,
-   "tango": 0,
-   "slice": 0,
+   "tango": 24,
+   "slice": 48,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -293,8 +293,8 @@
    "rum": 4,
    "vodka": 4,
    "barrel": 6,
-   "tango": 0,
    "slice": 24,
+   "tango": null,
    "bees": null,
    "mule": null
   },
@@ -358,7 +358,7 @@
    "lat": 40.700521,
    "lng": -111.802094,
    "barrel": 9,
-   "tango": 24,
+   "tango": 23,
    "slice": 24,
    "gin": null,
    "rum": null,
@@ -428,7 +428,7 @@
    "rum": 5,
    "barrel": 6,
    "tango": 43,
-   "slice": 95,
+   "slice": 93,
    "gin": null,
    "vodka": null,
    "bees": null,
@@ -463,8 +463,8 @@
    "rum": 5,
    "vodka": 49,
    "barrel": 5,
-   "tango": 0,
    "mule": 2,
+   "tango": null,
    "slice": null,
    "bees": null
   },
@@ -632,7 +632,7 @@
    "rum": 1,
    "barrel": 5,
    "tango": 48,
-   "slice": 48,
+   "slice": 44,
    "gin": null,
    "vodka": null,
    "bees": null,
@@ -697,10 +697,10 @@
    "phone": "385-484-7255",
    "lat": 40.535684,
    "lng": -112.0176,
-   "gin": 0,
    "vodka": 64,
    "barrel": 5,
    "tango": 8,
+   "gin": null,
    "rum": null,
    "slice": null,
    "bees": null,
@@ -786,10 +786,10 @@
    "rum": 8,
    "vodka": 6,
    "barrel": 7,
-   "tango": 24,
+   "tango": 18,
    "slice": 32,
-   "mule": 0,
-   "bees": null
+   "bees": null,
+   "mule": null
   }
  ]
 }
