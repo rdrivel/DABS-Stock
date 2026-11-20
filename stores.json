@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:31:53+00:00",
+ "updated": "2026-11-20T21:04:13+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -72,7 +72,7 @@
    "vodka": 4,
    "barrel": 5,
    "tango": 51,
-   "slice": 37,
+   "slice": 60,
    "rum": null,
    "bees": null,
    "mule": null
@@ -156,7 +156,7 @@
    "vodka": 1,
    "barrel": 5,
    "tango": 20,
-   "slice": 46,
+   "slice": 45,
    "gin": null,
    "rum": null,
    "bees": null,
@@ -205,7 +205,7 @@
    "lat": 40.77123,
    "lng": -111.927601,
    "tango": 24,
-   "slice": 48,
+   "slice": 47,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -293,7 +293,7 @@
    "rum": 4,
    "vodka": 4,
    "barrel": 6,
-   "slice": 24,
+   "slice": 20,
    "tango": null,
    "bees": null,
    "mule": null
@@ -514,8 +514,8 @@
    "rum": 4,
    "vodka": 2,
    "barrel": 4,
-   "tango": 24,
-   "slice": 24,
+   "tango": 20,
+   "slice": 20,
    "bees": null,
    "mule": null
   },
@@ -632,7 +632,7 @@
    "rum": 1,
    "barrel": 5,
    "tango": 48,
-   "slice": 44,
+   "slice": 40,
    "gin": null,
    "vodka": null,
    "bees": null,
@@ -716,7 +716,7 @@
    "lng": -111.924542,
    "barrel": 8,
    "tango": 24,
-   "slice": 23,
+   "slice": 21,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -768,9 +768,9 @@
    "gin": 9,
    "rum": 5,
    "vodka": 7,
-   "barrel": 9,
+   "barrel": 8,
    "tango": 58,
-   "slice": 45,
+   "slice": 41,
    "bees": null,
    "mule": null
   },
@@ -787,7 +787,7 @@
    "vodka": 6,
    "barrel": 7,
    "tango": 18,
-   "slice": 32,
+   "slice": 56,
    "bees": null,
    "mule": null
   }
