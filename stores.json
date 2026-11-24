@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:50:03+00:00",
+ "updated": "2026-11-24T23:00:28+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -40,7 +40,7 @@
   "slice": {
    "sku": "931896",
    "name": "PROVERBIAL RTD SLICE OF HEAVEN 355ml",
-   "warehouse": 1128,
+   "warehouse": 1104,
    "price": 3.99,
    "stores": 29
   },
@@ -68,7 +68,7 @@
    "phone": "801-533-5901",
    "lat": 40.760328,
    "lng": -111.897375,
-   "gin": 6,
+   "gin": 11,
    "vodka": 4,
    "barrel": 5,
    "tango": 43,
@@ -119,7 +119,7 @@
    "phone": "801-584-8387",
    "lat": 40.739595,
    "lng": -111.82617,
-   "gin": 9,
+   "gin": 8,
    "rum": 4,
    "vodka": 3,
    "barrel": 5,
@@ -155,8 +155,8 @@
    "lng": -111.889024,
    "vodka": 0,
    "barrel": 5,
-   "tango": 12,
-   "slice": 44,
+   "tango": 36,
+   "slice": 36,
    "gin": null,
    "rum": null,
    "bees": null,
@@ -327,8 +327,8 @@
    "rum": 3,
    "vodka": 2,
    "barrel": 6,
-   "tango": 43,
-   "slice": 40,
+   "tango": 42,
+   "slice": 39,
    "bees": null,
    "mule": null
   },
@@ -358,8 +358,8 @@
    "lat": 40.700521,
    "lng": -111.802094,
    "barrel": 9,
-   "tango": 23,
-   "slice": 24,
+   "tango": 22,
+   "slice": 23,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -616,7 +616,7 @@
    "rum": 1,
    "tango": 29,
    "slice": 47,
-   "mule": 1,
+   "mule": 0,
    "vodka": null,
    "barrel": null,
    "bees": null
@@ -631,7 +631,7 @@
    "lng": -111.762417,
    "rum": 1,
    "barrel": 5,
-   "tango": 44,
+   "tango": 40,
    "slice": 40,
    "gin": null,
    "vodka": null,
@@ -770,7 +770,7 @@
    "vodka": 7,
    "barrel": 8,
    "tango": 56,
-   "slice": 40,
+   "slice": 36,
    "bees": null,
    "mule": null
   },
@@ -787,7 +787,7 @@
    "vodka": 6,
    "barrel": 7,
    "tango": 40,
-   "slice": 53,
+   "slice": 52,
    "bees": null,
    "mule": null
   }
