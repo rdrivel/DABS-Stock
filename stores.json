@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:21:13+00:00",
+ "updated": "2026-11-24T00:50:03+00:00",
  "source": "https://webapps2.abc.utah.gov/ProdApps/ProductLocatorCore",
  "products": {
   "gin": {
@@ -33,14 +33,14 @@
   "tango": {
    "sku": "931895",
    "name": "PROVERBIAL RTD TWO TO TANGO GIN 355ml",
-   "warehouse": 1632,
+   "warehouse": 1584,
    "price": 3.99,
    "stores": 32
   },
   "slice": {
    "sku": "931896",
    "name": "PROVERBIAL RTD SLICE OF HEAVEN 355ml",
-   "warehouse": 1152,
+   "warehouse": 1128,
    "price": 3.99,
    "stores": 29
   },
@@ -72,7 +72,7 @@
    "vodka": 4,
    "barrel": 5,
    "tango": 43,
-   "slice": 52,
+   "slice": 48,
    "rum": null,
    "bees": null,
    "mule": null
@@ -204,8 +204,8 @@
    "phone": "801-533-5904",
    "lat": 40.77123,
    "lng": -111.927601,
-   "tango": 24,
-   "slice": 47,
+   "tango": 23,
+   "slice": 46,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -306,7 +306,7 @@
    "phone": "435-723-3701",
    "lat": 41.509684,
    "lng": -112.016752,
-   "tango": 16,
+   "tango": 12,
    "slice": 44,
    "gin": null,
    "rum": null,
@@ -325,7 +325,7 @@
    "lng": -112.06948,
    "gin": 5,
    "rum": 3,
-   "vodka": 3,
+   "vodka": 2,
    "barrel": 6,
    "tango": 43,
    "slice": 40,
@@ -595,7 +595,7 @@
    "phone": "435-627-8622",
    "lat": 37.169001,
    "lng": -113.441333,
-   "tango": 24,
+   "tango": 20,
    "slice": 48,
    "gin": null,
    "rum": null,
@@ -631,7 +631,7 @@
    "lng": -111.762417,
    "rum": 1,
    "barrel": 5,
-   "tango": 48,
+   "tango": 44,
    "slice": 40,
    "gin": null,
    "vodka": null,
@@ -716,7 +716,7 @@
    "lng": -111.924542,
    "barrel": 8,
    "tango": 23,
-   "slice": 16,
+   "slice": 12,
    "gin": null,
    "rum": null,
    "vodka": null,
@@ -732,7 +732,7 @@
    "lat": 40.99051,
    "lng": -111.898929,
    "barrel": 9,
-   "tango": 24,
+   "tango": 23,
    "slice": 23,
    "gin": null,
    "rum": null,
@@ -786,8 +786,8 @@
    "rum": 8,
    "vodka": 6,
    "barrel": 7,
-   "tango": 18,
-   "slice": 55,
+   "tango": 40,
+   "slice": 53,
    "bees": null,
    "mule": null
   }
